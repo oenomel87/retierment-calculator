@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1172px){
+    div.area_txt{float:left;width:auto;margin-right:4%}
+    div.area_download{width:100%;margin-top:20px;margin-bottom:30px}
+    div.wrap_download{margin-top:55px}
+    p.vt{font-size:28px;top:70px; right:70px}
+    div.minister_wrap a.btn.type_1.open{bottom:65px;right:160px}
+    ul.institute li{width:48.5%;margin-left:3%}
+    ul.institute li:nth-child(2n+1){margin-left:0}
+    ul.institute li:nth-child(4){margin-left:3%}
+}
+
+@media screen and (max-width: 1130px){
+
+    .search_type03 ul li:nth-child(4){padding-left:0!important;}
+
+}
+
+@media screen and (max-width: 1100px){
+    .sch_content_wrap{float:none; width:100%; border-right:none}
+    #search_right{display:none}
+}
+@media screen and (max-width:985px){
+    .accordion2 .schDetail ul>li>dl>dd>.sch_ddateBtn{display:block;margin-top:8px;padding-left:69px}
+
+    /* 상담신고센터 */
+    .sub-service-banner__list {display: block; }
+    .sub-service-banner__item {flex: 1 1 100%; flex: 1 1 100%; height: 80px; padding-right: 20px;}
+    .sub-service-banner__item + .sub-service-banner__item {margin-top: 15px; margin-left: 0;}
+    .sub-service-banner__item--one {background: #f6f7fb url('../images/content/img_banner_service01.png') no-repeat 7px 50% / 122px auto;}
+    .sub-service-banner__item--two {background: #f6f7fb url('../images/content/img_banner_service02.png') no-repeat 20px 50% / 70px auto;}
+    .sub-service-banner__button {padding-right: 10px; font-size: 16px;}
+}
+@media screen and (max-width: 800px){
+    #sch_content{margin:0; }
+    .sch_h3 {padding-right:0;}
+    .sch_topbtn{position:relative; display:block; margin-top:5px; width:100%; text-align:right}
+    .search_type03 li{padding-left:85px}
+	.search_type03 li label{width:77px}
+}
+
+
+@media screen and (max-width:768px){
+    #autoComBox{width:225px}
+    .total_sch.sch{width:240px; left:-120px}
+    .sch_detail_box{top:29px;margin-left:144px}
+    .accordion2 li p{left:250px}
+    .theam_sch{display:block; margin-top:5px}
+    .header_search.sch{width:450px !important}
+    .search_menu{margin-top:10px}
+
+
+    div.wrap_download{overflow:hidden;margin-top:30px}
+    div.wrap_vision{background:none;margin-top:10px;margin-bottom:0}
+    ul.mission_group{overflow:hidden;width:100%;margin-top:15px}
+    li.misson{height:220px;box-sizing:border-box;border:1px solid #e3e7f2;float:left;width:49%;margin-left:2%;margin-bottom:2%;text-align:center;padding:30px 20px}
+    li.misson:nth-child(2n+1){margin-left:0}
+    div.worklist dl.w_info{word-break:break-all}
+    p.vt{font-size:24px;top:60px; right:60px}
+    div.minister_wrap a.btn.type_1.open{bottom:40px;right:110px}
+    ul.btn_list{float:left;width:100%;display:block}
+    ul.btn_list li{float:left;width:24%;text-align:center;box-sizing:border-box;background:#f2f4fb;border:1px solid #ddd;padding:0;margin-left:1.333333333333333%}
+    ul.btn_list li:nth-child(4n+1){margin-left:0}
+    a.btn.type_1.depart{background:none;border:none;margin:0;width:auto}
+    ul.btn_list li:last-child{margin-top:5px}
+    ul.depart_list li p{margin-bottom:10px}
+    a.btn.type_1.depart:hover{color:#282e34;background:none}
+}
+
+@media screen and (max-width:670px){
+    .accordion2 .schDetail{padding:19px 4%}
+    .search_type03 ul li:nth-child(1),
+	.search_type03 ul li:nth-child(2),
+	.search_type03 ul li:nth-child(3),
+	.search_type03 ul li:nth-child(4){width:100%}
+}
+
+
+@media screen and (max-width:640px){
+    .sch_detail_box{display:none}
+    .btn_admin_info a{margin:0 1px; border-radius:100px; padding:0 15px 0 55px;}
+
+    .admin_info{background-size:30%}
+    .btn_admin_info a{margin:0 1px; border-radius:100px; padding:0 15px 0 55px;}
+    ul.institute li{height:380px}
+
+
+    .sch_content_wrap{padding:3%}
+    .search_menu {padding:10px}
+    .search_h2{width:24%;}
+    .search_menu li{width:24%;}
+    .search_menu li:nth-child(5){border-left:#ddd 1px solid}
+    .search_menu li:nth-child(5), .search_menu li:nth-child(6), .search_menu li:nth-child(7){border-top:none}
+
+    #layer_popup{box-sizing:border-box !important;width:100% !important;left:0 !important;margin-left:0 !important;top:0 !important;margin-top:0 !important;bottom:0 !important}
+
+    .layer_pop{box-sizing:border-box !important;left:0 !important;top:0 !important;margin-left:0 !important;margin-top:0 !important;width:100% !important;height:100% !important}
+
+    #autoComBox{display:none}
+    #nav.sch{display:block}
+    #sub_bar.sch{display:none}
+    #header .sch_header#header_con{min-height:50px;}
+    .header_search.sch{width:100%!important}
+    .header_search .total_sch .search_btn.sch{right:auto}
+
+    .header_search .total_sch.sch{margin:7px 55px 0 5px; width:83%}
+    .accordion2{display:none}
+    #all_menu.sch{display:block}
+
+	.layer_pop{overflow-y:auto}
+}
+
+
+
+@media screen and (max-width:560px){
+    .text_box li.L{display:none}
+    .text_box li.R{float:none; width:100%;}
+
+    .text_box dt{display:none}
+    .text_box dd{padding:0; text-align:center}
+    .text_box dd p{text-align:center}
+
+    .pw_con{width:100%}
+
+    .contactus{background:none; margin:20px 0}
+    .contactus li:first-child{float:none;text-align:left; background:url(../images/content/icon_contactus.png) no-repeat 15px 13px; background-size:15px; padding:10px 0 0 40px; position:relative}
+    .contactus li:last-child{float:none;padding:5px 15px 15px 15px}
+
+    .admin_info{background:none; height:140px}
+    .admin_info p.title{padding:15px 0 15px 0}
+    .admin_info p.text{padding-left:0}
+    .admin_info p.text br{display:none}
+
+    .btn_admin_info{margin:0 auto}
+    .btn_admin_info a{display:block; border-radius:100px; width:200px; margin:4px auto}
+}
+
+@media screen and (max-width:550px){
+    p.vs_tit{padding:15px 30px}
+    div.worklist dl.w_info{height:auto}
+    div.worklist dl.w_info dt{float:none;width:auto;margin-left:20px}
+    div.worklist dl.w_info dd{margin-left:20px;margin-top:-20px;font-size:14px;line-height:25px;padding:10px 0}
+    li.misson:nth-last-child(-n+2){height:260px}
+    span.logo{padding:30px 15px}
+    div.wrap_download a{margin-right:0}
+    p.vt{font-size:17px;top:30px;right:30px}
+    div.minister_wrap a.btn.type_1.open{bottom:20px;left:20px}
+    div.minister_wrap a.btn.type_1.open{position:static;text-align:center;display:block;background:#003478 url(../images/common/bul_open.png) 30% no-repeat}
+    ul.depart_list li p{line-height:23px;margin-bottom:0}
+    ul.btn_list li:nth-last-child(2){margin-top:-5px}
+    img.img_thum{margin-right:10px}
+    div.departinfo_wrap div.text_box{height:auto;background:none}
+    div.depart_info{margin-top:15px}
+    div.depart_info dl dt{margin-right:10px}
+    ul.btn_list li,
+    ul.btn_list li:nth-last-child(2),
+    ul.btn_list li:nth-child(2n+1){float:left;width:49%;margin-left:2%;margin-top:6px}
+    ul.btn_list li:nth-child(2n+1){margin-left:0}
+    ul.institute li{width:100%;height:auto;margin-left:0}
+    ul.institute li:nth-child(4){margin-left:0}
+    ul.text_box.mb_30 li.R.pt_25.pr_15{padding:0}
+    div.btit p{display:block}
+    div.btit a{float:left}
+    div.ib{overflow:hidden;text-align:center}
+    .btn.type_1.bdown{float:left;font-size:13px;background:none;padding:0;width:48%;height:50px;font-weight:600;line-height:50px}
+    .btn.type_1.bins{float:left;font-size:13px;background:none;padding:0;width:48%;margin-left:2%;height:50px;font-weight:600;line-height:50px}
+    /*ul.btn_list li:nth-last-child(-n+2){margin-top:5px;}*/
+}
+
+
+
+@media screen and (max-width:500px){
+    .pw_con li{width:262px}
+    .pw_con input{width:130px}
+
+    .theme .themeBox{padding-left:0}
+    .theme .themeBox .theme_img{position:static;text-align:center;margin-bottom:10px}
+    .theme .themeBox .theme_img img{width:120px}
+
+
+}
+
+
+
+@media screen and (max-width:460px){
+
+
+    div.text_box a.btn.type_1{padding:12px;font-size:13px}
+    div.text_box a.btn.type_1.open{background:#4580d1 19px center no-repeat}
+    a.btn.type_1.organ{background:#063863 19px center no-repeat}
+}
+
+@media screen and (max-width:430px){
+    .table_365 input, .table_365 select{width:65%}
+    .table_365 input.w73{width:30%}
+    .table_365 textarea.w80{width:60%}
+}
+
+
+@media screen and (max-width: 400px){
+
+   .search_type03{padding:15px 10px}
+
+}
+
+
+
+@media screen and (max-width:390px){
+    span.logo{float:inherit;width:100%;text-align:center;padding:15px 0 0}
+    div.wrap_download{width:100%;margin:0;padding:0 0 10px}
+    div.wrap_download a{float:none !important;display:block;margin:10px auto 0}
+
+    .header_search .total_sch.sch{width:80%}
+}
+
+
+
+
+@media screen and (max-width: 340px){
+    .header_search .total_sch.sch{width:77%}
+
+}

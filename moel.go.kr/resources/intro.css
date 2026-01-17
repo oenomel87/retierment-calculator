@@ -1,0 +1,781 @@
+@charset "utf-8";
+
+/* 정보공개 서브메인  */
+#mo_submain{}
+#mo_submain>div{width:49%; float:left;}
+#mo_submain p.title{padding-bottom:12px;  background:url(../images/common/subtitle_bg_01.png) no-repeat left bottom; font-size:20px; font-weight:600; color:#555; margin:30px 0px 12px 38px;}
+#mo_submain p.ment{margin:0 10px 30px 38px;}
+
+.mo_con_01{margin: 0 10px 10px 0; height: 350px; border: 1px solid #e1e2e3;
+    background: #fff url(../images/intro/intro_submain_bg_01.png) no-repeat center bottom;}
+.mo_con_02{margin:0 0 10px 0; height:350px;  border: 1px solid #e1e2e3; background: #fff url(../images/intro/intro_submain_bg_02.png) no-repeat center bottom;}
+.mo_con_03{margin:0 10px 10px 0; height:350px;  border: 1px solid #e1e2e3; background: #fff url(../images/intro/intro_submain_bg_03.png) no-repeat center bottom;}
+.mo_con_04{margin:0 0 10px 0; height:350px; border: 1px solid #e1e2e3; background: #fff url(../images/intro/intro_submain_bg_04.png) no-repeat center bottom;}
+
+
+
+
+/*--상징 및 비전--*/
+div.block_mi{display:block;overflow:hidden}
+div.area_txt{float:left;width:48%;margin-right:4%}
+div.area_download{float:left;width:48%;box-sizing:border-box;border:1px solid #e3e7f2}
+span.logo{float:left;padding:30px 40px}
+div.wrap_download{margin-top:30px}
+div.wrap_download a{margin-right:20px;margin-bottom:10px}
+div.wrap_vision{margin-top:10px;margin-bottom:20px}
+div.vision{border:1px solid #e3e7f2}
+p.vs_tit{font-size:16px;text-align:center;color:#222;padding:15px}
+p.vs_tit strong{padding:10px 0px 10px 40px;color:#27468a;font-size:17px;margin-right:15px;background:url(../images/content/vision.gif) left no-repeat}
+
+ul.mission_group{overflow:hidden;width:100%;margin-top:41px}
+li.misson{height:245px;box-sizing:border-box;border:1px solid #e3e7f2;float:left;width:19%;margin-left:1.1%;text-align:center;padding:30px 20px}
+li.misson:first-child{margin-left:0}
+li.misson p{text-align:center;margin-top:20px;color:#333;word-break:keep-all}
+div.txt_num{padding:15px;font-size:17px;font-weight:bold;background:url(../images/content/mission_bar.gif) no-repeat 50% 100%}
+div.txt_num .txt{color:#27468a}
+div.txt_num .number{border-radius:16px;background:#4574d0;padding:5px;color:#fff;font-size:16px}
+div.worklist{display:block}
+div.worklist dl.w_info{overflow:hidden;width:100%;height:60px;border-top:0;border-bottom:1px solid #e3e7f2;line-height:60px;font-size:15px;color:#333}
+div.worklist dl.w_info:first-child{border-top:1px solid #063863}
+div.worklist dl.w_info:last-child{border-bottom:1px solid #063863}
+div.worklist dl.w_info dt{color:#27468a;font-weight:bold;float:left;width:20%;margin-left:40px}
+div.worklist dl.w_info dt img{vertical-align:middle;margin-right:10px}
+.btn.type_1.more{background:#063863 url(../images/content/bul_more.png) 19px center no-repeat;float:right;margin-top:20px}
+
+/*--예산ㆍ기금--*/
+.modi{margin-top:10px;float:right;font-size:13px}
+.t_bold{color:#222;font-weight:600}
+.b_list2{table-layout:fixed}
+.b_list2 tr td:first-child{text-align:left}
+.unit{float:right;font-size:14px;font-weight:normal;color:#555}
+
+/*--장관소개--*/
+.minister_wrap{width:100%; position: relative; background: url(../images/content/minister_new.jpg) no-repeat; background-size:100%;
+    margin-bottom:20px}
+p.vt{color:#000;font-size:32px;font-weight:bold; position:absolute; top:86px; right:86px}
+p.vt strong{color:#114488}
+p.minister_txt{font-size:15px;line-height:26px}
+p.minister_name{font-size:17px;color:#222;font-weight:600;margin-top:20px}
+p.minister_name strong{color:#305c94}
+div.minister_wrap a.btn.type_1.open{position:absolute;border-radius:30px;bottom:80px;right:215px;background:#003478 url(../images/common/bul_open.png) 19px center no-repeat;padding:15px 19px 15px 40px}
+
+/*--본부--*/
+div.departinfo_wrap{display:block;overflow:hidden;box-sizing:border-box;border:1px solid #e3e7f2;}
+div.departinfo_wrap div.text_box2{border:0;padding:0}
+div.departinfo_wrap div.text_box2_left170 {margin-left:170px;} 
+img.img_thum{float:left;margin-right:25px !important}
+div.depart_info{margin-top:25px;font-size:15px}
+div.depart_info dl{overflow:hidden;margin-bottom:8px}
+div.depart_info dl dt{width:54px;float:left;margin-right:20px;color:#222;font-weight:600}
+div.depart_info dl dt img{vertical-align:middle;margin-right:8px}
+div.text_box2 a.btn.type_1.open{background:#4580d1 url(../images/common/bul_open.png) 19px center no-repeat}
+a.btn.type_1.organ{background:#063863 url(../images/content/organization.png) 19px center no-repeat}
+ul.depart_list{position:relative;border-top:2px solid #063863}
+ul.depart_list li{overflow:hidden;padding:12px 0 12px;border-bottom:1px solid #e2e2e2}
+ul.depart_list li p{width:150px;color:#282e34;font-size:15px;font-weight:600;float:left}
+ul.btn_list{float:left}
+ul.btn_list li{float:right;border-bottom:0;padding:0;margin-top:-10px}
+a.btn.type_1.depart{display:block;width:138px;color:#282e34;font-size:13px;background:#f2f4fb;border:1px solid #ddd;padding:0;height:43px;text-align:center;line-height:43px;margin-left:5px}
+a.btn.type_1.depart:hover{color:#fff;background:#063863}
+
+.depart_box{padding:0 15px 20px;border-top:2px solid #063863;border-bottom:1px solid #ddd}
+.depart_box dt{margin-top:20px;padding-left:10px;background:url(../images/common/bul_h6.gif) left center no-repeat;font-weight:bold;color:#000;font-size:15px}
+.depart_box dd{padding-left:10px}
+.depart_box dd p{position:relative;margin-bottom:5px}
+.depart_box dd.dt01 p{padding-left:80px}
+.depart_box dd p span{position:absolute;left:0;top:0}
+.depart_box dd.dt02 p{padding-left:116px}
+
+.new_orgListBox {background:url('../images/intro/bg_line_new.png') 50% 0 no-repeat !important;}
+ 
+/*-- 본부 재작업 20190823(cys) --*/
+.organ_new {position:relative; }
+.organ_new .org_area {width:100%; position:relative; padding:10px 0 0 0; height:1500px; letter-spacing: -1px;}
+.organ_new .org_area li {list-style:none; text-align:center;}
+.organ_new .org_area li.org_box {position: relative; width: 100%;}
+.organ_new .org_area li.org_box li.grp_b_01 {position: absolute; top: 70px; left: 90px; width: 280px; background:url(../images/intro/bg_left.png) 90px 23px no-repeat; z-index:1;}
+.organ_new .org_area li.org_box li.grp_b_02 {position: relative; width: 100%; min-height: 700px; background:url(../images/intro/bg_cnt.png) 370px 103px no-repeat;}
+.organ_new .org_area li.org_box li.grp_b_02 > ul {display: inline-block;}
+.organ_new .org_area a {display:block;}
+.organ_new .org_area a.min {background:url(../images/intro/bg_top.png) 0 0 no-repeat; width: 103px; height: 103px; line-height:105px; font-weight:bold; color:#fff; font-size:18px; position: absolute; left: 398px;z-index:1;}
+.organ_new .org_area a.sec{position: absolute; left: 371px; top: 145px; background:#9087c6; width:155px; line-height:45px; color:#fff; font-size:16px; font-weight:bold; border:1px solid #7f74bc;}
+.organ_new .org_area a.smin {width:170px; padding:12px 0; display:block; border:1px solid #5680bc; background:#5f8bc8; color:#fff; font-size:16px; font-weight:bold; margin-bottom:10px; text-align:center;}
+
+.organ_new .org_area .sec_lowrank_01 {position: absolute; left: 645px; top: 98px;}
+.organ_new .org_area .sec_lowrank_02 {position: absolute; left: 0; top: 280px; width: 900px; padding-left: 20px; padding-bottom: 50px; background: url(../images/intro/bg_box_new2022.png?ver=1.5) 0 -13px no-repeat; box-sizing: border-box;}
+.organ_new .org_area .lowrank02_area {position: relative; width: 100%; }
+.organ_new .org_area .lowrank02_area > li {position: relative; width: 162px; float: left; text-align: left; margin: 0 1.58% 0 0; background: url(../images/intro/bg_line.png) 50% 0 repeat-y;}
+.organ_new .org_area .lowrank02_area li.pt10 {padding-top: 10px;}
+.organ_new .org_area .box {width:170px; display:block; border:1px solid #ddd; background:#fff; padding:12px 0; }
+.organ_new .org_area .box.alone {position: absolute; left: -1px; top: 722px; background: #fff; }
+.organ_new .org_area .box a {display:block; color:#444; font-size:13px; text-align:left; text-indent:15px; margin-bottom: 5px; }
+.organ_new .org_area .box a:before {content:'-'; margin-right:2px;}
+.organ_new .org_area a.tit {color:#333b4e; font-size:13px; font-weight:bold; padding:10px 0; text-align:center; border:1px solid #c2c9db; background:#e3eafd; z-index: 100;}
+.organ_new .org_area .con_list {width: 160px; background:#fff; display:block; border:1px solid #d2d7dd; margin:10px 0 0; min-height:205px;}
+.organ_new .org_area .con_list a.org_class {display:block; background:#e6e9ed; width:100%; margin:0; padding:6px 0; text-align:center; font-size:13px; color:#333; z-index: 1000;}
+.organ_new .org_area .con_list a.org_class:before {display:none;}
+.organ_new .org_area .con_list a {position: relative; padding-left: 7px; font-size:13px; line-height:22px; text-align: left;}
+.organ_new .org_area .con_list a:before {content:'-'; position: absolute; top: -2px; left: 0;}
+.organ_new .org_area .con_list .orgListBox{padding:10px;}
+.organ_new .org_area .con_list .orgListBox.ml0{margin-left: 0; box-sizing: border-box; background:#fff;}
+.organ_new .org_area .con_list .orgListBox.ml0.mt20 {margin-top: 20px;}
+.organ_new .li_mt20 {margin-top: 20px !important;}
+
+@media screen and (max-width:768px){
+    .organ_new .org_area {width: 100%; height:auto;}
+    .organ_new .org_area li.org_box {position: static; width: 100%;}
+    .organ_new .org_area a {display:block;}
+    .organ_new .org_area a.min {background:url(../images/intro/bg_top.png) 0 0 no-repeat; width: 103px; height: 103px; line-height:105px; font-weight:bold; color:#fff; font-size:18px; position: static; margin: 0 auto;}
+    .organ_new .org_area li.org_box li.grp_b_01 {position: static; width: 100%; background:none; margin-top: 20px; padding: 0 10px; box-sizing: border-box; overflow: hidden;}
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li:first-child {width: calc(50% - 10px); float: left; margin-right: 10px;}
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li:last-child {width: 50%; float: left;}
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li a.smin {width: 100%; box-sizing: border-box;} 
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li .box {width:100%; border:1px solid #ddd; background:#fff; padding:10px 0; box-sizing: border-box;}
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li .box li {float: none; width:100%; }
+    .organ_new .org_area li.org_box li.grp_b_01 ul > li .box a {display: block;}
+    .organ_new .org_area li.org_box li.grp_b_02 {width: 100%; background:none; margin-top: 30px;}
+    .organ_new .org_area li.org_box li.grp_b_02 a.sec {position: static;  margin: 0 auto;}
+    .organ_new .org_area li.org_box li.grp_b_02 ul {width: 100%;}
+    .organ_new .org_area li.org_box li.grp_b_02 .sec_lowrank_01 {position: static; width: 100%;background: url(../images/intro/bg_line.png) 50% 0 repeat-y;}
+    .organ_new .org_area li.org_box li.grp_b_02 .sec_lowrank_02 {position: static; width: 100%; background: none; padding: 0 10px 50px 10px;}
+    .organ_new .org_area li.org_box li.grp_b_02 ul > li a.smin {width: 50%; margin: 0 auto; margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;} 
+    .organ_new .org_area li.org_box li.grp_b_02 .sec_lowrank_01 .box {width: 50%; margin: 0 auto; border:1px solid #ddd; background:#fff; padding:10px 0; box-sizing: border-box;}
+    .organ_new .org_area .lowrank02_area {position: static; width: 100%; margin-top: 20px;}
+    .organ_new .org_area .lowrank02_area > li {float: none; width: 100%; box-sizing: border-box; background: none;}
+    .organ_new .org_area .box.alone {position: static; background: #fff;}
+    .organ_new .org_area .con_list {width: 100%; background:#fff; display:block; border:1px solid #d2d7dd; margin:10px 0 0 0; min-height:auto; box-sizing: border-box;}
+    .organ_new .li_mt20 {margin-top: 10px !important;}
+    .li_sanjae {display:none;}
+    .organ_new .org_area .lowrank02_area > li > ul > li:not(.con_list) {display: none;}
+
+    .organ_new .org_area .sec_lowrank_02 > .lowrank02_area > li:nth-child(5) {margin-bottom: 30px;}
+}
+
+
+/*-- 본부추가 20171017(KDS) --*/
+.organ{position:relative}
+.top_org {width:900px; position:relative; height:259px; padding:10px 0 0 0; }
+.top_org li {list-style:none; text-align:center; }
+.top_org li.cnt {position:absolute; left:370px; height:280px; width:280px; float:left; background:url(../images/intro/bg_cnt.png) 0 101px no-repeat; }
+.top_org li.left {position:relative; top:70px; left:90px; width:645px; float:left; background:url(../images/intro/bg_left.png) 89px 21px no-repeat; }
+.top_org li.right {position:relative; top:98px; width:170px; float:left; background:url(../images/intro/bg_line.png) 50% 0 repeat-y; }
+
+/* 2019-08-05 수정 */
+.top_org a {display:block;}
+.top_org .min a {background:url(../images/intro/bg_top.png) 50% 0 no-repeat; width:105px; line-height:105px; font-weight:bold; color:#fff; font-size:18px; margin-left:30px; }
+.top_org .sec a {margin:35px 4px; background:#9087c6; width:155px; line-height:45px; color:#fff; font-size:16px; font-weight:bold; border:1px solid #7f74bc; position:relative;z-index:80}
+.top_org .smin a {width:170px; padding:12px 0; display:block; border:1px solid #5680bc; background:#5f8bc8; color:#fff; font-size:16px; font-weight:bold; margin-bottom:10px; text-align:center}
+.top_org .box {width:170px; display:block; border:1px solid #ddd; background:#fff; padding:12px 0; }
+.top_org .box a {display:block; color:#444; font-size:14px; text-align:left; text-indent:15px; }
+.top_org .box a:before {content:'-'; margin-right:2px;}
+
+.cnt_org {width:900px; padding-left:20px;  overflow:hidden; background:url(../images/intro/bg_box_new2022.png?ver=1.4) 3px -13px no-repeat; margin-bottom:18px; padding-bottom:32px}
+.cnt_org li {position:relative; background: url(../images/intro/bg_line.png) 50% 0 repeat-y; list-style:none; text-align:left; float:left; width:162px; margin:0 1.58% 0 0;}
+.cnt_org li a {display:block;}
+.cnt_org .tit a {color:#333b4e; font-size:14px; font-weight:bold; padding:10px 0; text-align:center; border:1px solid #c2c9db; background:#e3eafd; z-index: 100;}
+.cnt_org .sub a {text-align:center; width:155px; padding:12px 0; font-size:14px; color:#333; font-weight:bold; background:#e6e9ed; border:1px solid #d7d7d7; margin-top:12px; }
+.cnt_org ul li .list {background:#fff; display:block; border:1px solid #d2d7dd;margin:10px 0 0;min-height:205px}
+.cnt_org .list .org_class{display:block;background:#e6e9ed;width:100%; margin:0; padding:0; z-index: 1000;}
+.cnt_org .list .org_class a{display:block;text-align:center;padding:6px 0;font-size:13px;color:#333;}
+.cnt_org .list .orgListBox{padding:10px}
+.cnt_org .list a {font-size:13px; line-height:22px; }
+.cnt_org .list a:before {content:'-'; margin-right:2px; }
+.cnt_org .list .org_class a:before{display:none}
+.cnt_org .box {width:155px; display:block; border:1px solid #ddd; background:#fff; padding:12px 0; }
+.cnt_org .box a {display:block; color:#444; font-size:13px; text-align:left; text-indent:15px; }
+.cnt_org .box a:before {content:'-'; margin-right:2px;}
+.cnt_org .list .orgListBox.ml0{margin-left: 0; box-sizing: border-box;background:#fff;}
+.cnt_org .list li > ul.ml0 > li{margin-left:0;}
+.cnt_org .orgListBox li{float: none; width:auto; margin:0; padding:0; background: none;}
+.cnt_org .mar0 {margin:10px 0 0 0;}
+/*.cnt_org div.mar10 {margin:10px 0; }*/
+.cnt_org .alone {position:absolute; top:722px;}
+.cnt_org ul li .list:last-of-type{margin-bottom:0 !important;}
+.cnt_org ul li .list:nth-child(1){min-height:128px}
+.cnt_org ul li.pt10{padding-top:10px;}
+.cnt_org ul li.right.mt10{margin-top:10px;}
+/* 2019-08-05 수정 */
+
+/*--소속기관--*/
+ul.institute{overflow:hidden;position:relative}
+ul.institute li{float:left;width:32%;height:321px;margin-left:2%;box-sizing:border-box;border:1px solid #e3e7f2;background-color:#f2f4fb;margin-bottom:20px}
+ul.institute li:nth-child(3n+1){margin-left:0;}
+ul.institute li div{text-align:center;margin-bottom:20px}
+div.box_b{color:#fff;font-size:15px;font-weight:600;text-align:center;background-color:#063863;padding:12px 0;margin-bottom:30px}
+div.box_s{color:#fff;font-size:15px;font-weight:600;text-align:center;background-color:#4580d1;padding:13px 0;margin-bottom:30px}
+a.ins_btn{display:block;color:#063863;font-size:14px;font-weight:600;text-align:center;background-color:#fff;border:1px solid #a6b3df;padding:12px 0;margin:0 15px}
+div.ins_sbtn{padding:0 20px}
+div.ins_sbtn a{display:inline-block;color:#333;font-size:12px;text-align:center;background-color:#fff;border:1px solid #e2e2e2;border-radius:20px;padding:8px 12px;margin-bottom:5px}
+.btn.type_1.bdown{color:#063863;border:1px solid #063863;background:url(../images/content/bul_down_b.png) 19px center no-repeat}
+.btn.type_1.bins{color:#063863;border:1px solid #063863;background:url(../images/content/bul_ins_b.png) 19px center no-repeat}
+div.section_ins{position:relative}
+div.btit{overflow:hidden;padding:0 20px 10px 20px;background:#f2f4fb;border-top:1px solid #063863;border-bottom:1px solid #ddd}
+p.pbl{display:inline-block;color:#063863;font-weight:600;margin-top:20px}
+div.txt_contents{padding:20px 20px;border-bottom:1px solid #e2e2e2}
+
+/*--직원검색--*/
+.stit{position: absolute; line-height:32px;padding-left:35px}
+
+/*--직원검색 - 업무안내--*/
+.staff_info{position:relative;overflow:hidden;padding:10px;border-top:2px solid #103e93}
+.staff_info>strong{font-size:18px;color:#333;padding-left:20px;background:url(../images/common/bul_h5.gif) left center no-repeat}
+.staff_info>span>a{padding:2px 25px 2px 5px;border:solid 1px #c1c2c3;display:inline-block;background:url(../images/common/ico_arrow_open.png) 85% center no-repeat #fff;text-decoration:none;color:#333;font-size:13px;border-radius:4px}
+.staff_info>span>a.on{background:url(../images/common/ico_arrow_close.png) 85% center no-repeat #fff}
+.staff_infoBox{display:none;padding:15px;border-width:1px 0;border-style:solid;border-color:#ddd;background:#f9f9f9;margin-top:15px;margin-bottom:10px}
+.staff_infoList{border-width:1px 0;border-style:solid;border-color:#ddd;margin-bottom:15px}
+.staff_infoList:after{content:"";display:block;clear:both}
+.staff_infoList li{float:left;padding:8px 0}
+.staff_infoList li strong{display:inline-block;width:60px;padding-right:10px}
+.staff_infoList li:first-child{width:50%;border-bottom:1px solid #ddd}
+.staff_infoList li:nth-child(2){width:50%;border-bottom:1px solid #ddd}
+.staff_infoList li:nth-child(3){clear:both}
+
+/*--산하기관--*/
+ul.board_view2{overflow:hidden;border-bottom:1px solid #ddd}
+ul.board_view2:first-child{border-top:2px solid #063863}
+li.organ{width:180px;float:left;margin-right:20px}
+li.organ a{display:block;background:#3164a9 url(../images/common/bul_open.png) 40px center no-repeat;padding:7px 0;color:#fff;text-align:center;font-size:13px}
+.organ_txt span{color:#063863;font-size:15px;font-weight:600;margin-bottom:10px;display:inline-block}
+
+/*--찾아오시는길--*/
+.map{width:100%;overflow:hidden;border:1px solid #e3e7f2}
+.map_wrap{overflow:hidden;padding:15px;border-bottom:1px solid #e3e7f2}
+.map_icon{margin-right:40px;float:left;display:block}
+.t_bl{color:#222;margin-bottom:10px}
+.i_txt{display:block;text-align:center;font-size:17px;font-weight:600;margin-top:10px;color:#222}
+.map_txt{float:left;display:block}
+
+.board_view4{overflow:hidden;border-top:2px solid #063863;font-size:14px;clear:both}
+.board_view4 dt{font-size:14px;color:#063863;background:#f2f4fb}
+.board_view4 .b_info{overflow:hidden}
+.board_view4 dl{position:relative;float:left;border-bottom:1px solid #ddd}
+.board_view4 dl dt{position:absolute;left:0;top:0;right:0;bottom:0;width:100px;background:#f2f4fb;font-weight:bold;text-align:center;border-right:1px solid #ddd}
+.board_view4 dl dt,.board_view4 dl dd{padding:12px 7px;border-left:1px solid #ddd}
+.board_view4 dl dd{overflow:hidden;text-overflow:ellipsis;white-space:normal;margin-left:114px}
+.board_view4 dl:nth-of-type(1) dt,.board_view4 .b_info dl:nth-of-type(3) dt,.board_view4 .b_info dl:nth-of-type(6) dt{border-left:0}
+.b_floor{width:30%}
+.b_ins{width:70%}
+.b_ins dd{margin-left:0 !important}
+
+/* 차관 - 현장스케치 */
+.photo_b_top{position:relative}
+.photo_b_top .photo{width:700px; margin:0 auto}
+.photo_b_top .photo .photo_area{width:660px; padding:20px; border:1px solid #c9c9c9}
+.photo_b_top .photo .photo_area img{width:100%}
+.photo_b_top .photo #mainContent strong{display:block;margin:25px 0 10px 0; color:#2e76dc; font-size:22px; font-weight:600; text-align:center}
+.photo_b_top .photo #mainContent p{text-align:center}
+
+.photo_b_top .photo .more_area{margin-top:16px;text-align:center}
+.photo_b_top .photo .more_area a.more_btn{display:inline-block;border:1px solid #b8c7e0;padding:11px 20px 11px 20px; color:#2e76dc; font-weight:600;line-height:14px;transition:all .3s}
+.photo_b_top .photo .more_area a.more_btn:before{content:"";margin-right:8px;display:inline-block;width:11px;height:6px;background:url(../images/common/blit_03.png);transition:all .3s}
+.photo_b_top .photo .more_area a.more_btn:hover{text-decoration:none}
+.photo_b_top .photo .more_area a.more_btn.on:before{transform:rotate(180deg)}
+
+.btn_arrow {position:absolute;width:100%;top:185px}
+.btn_arrow .prev{position:absolute;left:0}
+.btn_arrow .next{position:absolute;right:0}
+
+.photo_b_top .photo #mainContent #show{display:none;margin-top:10px;padding:15px;border:2px solid #2e76dc;background:#fff;box-shadow:3px 3px 3px rgba(0,0,0,0.2)}
+.photo_b_top .photo #mainContent #show p{margin-top:10px}
+.photo_b_top .photo #mainContent #show .show_close{display:block;margin:0 0 0 auto;text-indent:-9999px;width:15px;height:15px;background:url(../images/common/btn_reply_del.png) center center no-repeat;transition:all .3s}
+.photo_b_top .photo #mainContent #show .show_close:hover{transform:rotate(90deg)}
+
+/*--연혁--*/
+.vertical-container {
+    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.vertical-container::after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
+}
+#vertical-timeline {
+    position: relative;
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #f1f1f1;
+}
+.vertical-timeline-content .btn {
+    float: right;
+}
+.vertical-timeline-content h2 {
+    padding-bottom:15px;
+    color:#000000;
+}
+#vertical-timeline.light-timeline:before {
+    background: #e7eaec;
+}
+.dark-timeline .vertical-timeline-content:before {
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+.dark-timeline.center-orientation .vertical-timeline-content:before {
+    border-color: transparent transparent transparent #f5f5f5;
+}
+.dark-timeline .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before,
+.dark-timeline.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before {
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+.dark-timeline .vertical-timeline-content,
+.dark-timeline.center-orientation .vertical-timeline-content {
+    background: #f5f5f5;
+}
+
+/* 소속기관 버튼 */
+.btn_go02{border:1px solid #ddd; background:url(../images/layout/btn_go02.gif) no-repeat 10px center; padding:6px 10px 6px 32px; font-size:13px; font-weight:600; margin-left:10px}
+
+
+
+/* 역대장관보기 */
+
+.btn_insert td:nth-child(4){min-width:135px; padding:6px 0!important}
+
+.resume_top{display:block; display:table; width:100%;  box-sizing:border-box;border:1px solid #e3e7f2;background:url(../images/content/depart_bg.gif) no-repeat right bottom; padding:20px}
+.resume_top div.photo{float:left; width:150px;}
+.resume_top div.photo img{border:1px solid #c9c9c9; width:110px;}
+.resume_top div.text{float:left;}
+.resume_top div.text p.title{font-size:18px; padding:5px 0 23px 0}
+.resume_top div.text p.title span{color:#063863; font-weight:600}
+.resume_top div.text li{padding-bottom:5px; display:block; position:relative; padding-left:100px}
+.resume_top div.text li strong{position:absolute; top:0; left:0; width:100px; padding-left:20px}
+.resume_top div.text li strong.a1{background: url(../images/intro/icon_intro_01.png) no-repeat left 3px;}
+.resume_top div.text li strong.a2{background: url(../images/intro/icon_intro_02.png) no-repeat left 3px;}
+.resume_top div.text li strong.a3{background: url(../images/intro/icon_intro_03.png) no-repeat left 3px;}
+
+.resume_top div.text li strong{width:95px; display:inline-block; padding-left:25px}
+.resume_top:after{clear:both;display:block;content:""}
+
+
+.resume{display:block; width:100%}
+.resume div{display:block; border-bottom:1px solid #ddd; padding:20px 30px}
+.resume li{line-height:28px; width:100%; padding-left:160px; position:relative; box-sizing:border-box}
+.resume li strong{position:absolute; top:0; left:0; width:160px; display:block;
+	background: url(../images/layout/bul_gnb_3depth.gif) no-repeat 10px center;
+	padding-left:24px; background-size:3px; box-sizing:border-box}
+.resume div:after{clear:both;display:block;content:""}
+.resume:after{clear:both;display:block;content:""}
+
+
+@media screen and (max-width:700px){
+.resume_top{background:none}
+.resume div{padding:10px}
+}
+
+@media screen and (max-width:480px){
+.resume li{padding-left:130px;}
+.resume li strong{width:130px; display:block; background: none; padding-left:0}
+.resume_top div.photo{float:none; width:100%; text-align:center}
+.resume_top div.text{float:none;}
+.resume_top div.text p.title{font-size:18px; padding:5px 0 23px 0; text-align:center}
+}
+
+
+
+@media only screen and (min-width: 1170px) {
+    #vertical-timeline.center-orientation {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    #vertical-timeline.center-orientation:before {
+        left: 50%;
+        margin-left: -2px;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    .center-orientation.dark-timeline .vertical-timeline-content:before {
+        border-color: transparent #f5f5f5 transparent transparent;
+    }
+}
+.vertical-timeline-block {
+    position: relative;
+    margin: 2em 0;
+}
+.vertical-timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.vertical-timeline-block:first-child {
+    margin-top: 0;
+}
+.vertical-timeline-block:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+    .center-orientation .vertical-timeline-block {
+        margin: 4em 0;
+    }
+    .center-orientation .vertical-timeline-block:first-child {
+        margin-top: 0;
+    }
+    .center-orientation .vertical-timeline-block:last-child {
+        margin-bottom: 0;
+    }
+}
+.vertical-timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    border:4px solid #4580d1;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+}
+.vertical-timeline-icon i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -9px;
+}
+@media only screen and (min-width: 1170px) {
+    .center-orientation .vertical-timeline-icon {
+
+        width: 16px;
+        height: 16px;
+        left: 50%;
+        margin-left: -7px;
+        font-size: 19px;
+        border:4px solid #4580d1;
+        background: #fff;
+        box-sizing: border-box;
+    }
+    .center-orientation .cssanimations .vertical-timeline-icon.is-hidden {
+        visibility: hidden;
+    }
+
+}
+.vertical-timeline-content {
+    position: relative;
+    margin-left: 50px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+}
+.vertical-timeline-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.vertical-timeline-content h2 {
+    font-weight: 400;
+    margin-top: 4px;
+}
+.vertical-timeline-content p {
+    padding:5px 15px;background:url(../images/common/bul_h6.gif) 5px 15px no-repeat;line-height:20px;
+}
+
+.vertical-timeline-content span {
+    color: #4580d1;font-weight: 600;
+}
+
+.vertical-timeline-content .vertical-date {
+    width: 100%;
+    font-weight: 600;
+    font-size:17px;
+    color:#4580d1;
+    line-height: 32px
+}
+.vertical-timeline-content .vertical-tit {
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+}
+
+.vertical-timeline-content .vertical-small {
+    font-size: 14px;
+    color: #555;
+    font-weight: normal;
+}
+.vertical-timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 9px solid transparent;
+    border-right: 9px solid white;
+}
+@media only screen and (min-width: 768px) {
+    .vertical-timeline-content h2 {
+        font-size: 18px;
+    }
+    .vertical-timeline-content p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    .center-orientation .vertical-timeline-content {
+        margin-left: 0;
+        padding: 1.6em;
+        width: 40%;
+    }
+    .center-orientation .vertical-timeline-content::before {
+        top: 14px;
+        left: 100%;
+        border-color: transparent;
+        border-left-color: #f7f7f7;
+    }
+    .vertical-timeline-block:first-child{background:url(../images/intro/history_bg1.gif) right bottom no-repeat}
+    .vertical-timeline-block:nth-child(2){background:url(../images/intro/history_bg2.gif) 80px bottom no-repeat}
+    .center-orientation .vertical-timeline-content .btn {
+        float: left;
+    }
+    .center-orientation .vertical-timeline-content .vertical-date {
+        position: absolute;
+        width: 100%;
+        left: 120%;
+        top: 0;
+    }
+    .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content {
+        float: right;
+    }
+    .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content::before {
+        top: 14px;
+        left: auto;
+        right: 100%;
+        border-color: transparent;
+        border-right-color: #f7f7f7;
+    }
+    .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .btn {
+        float: right;
+    }
+    .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .vertical-date {
+        left: auto;
+        right: 120%;
+        text-align: right;
+    }
+    .center-orientation .cssanimations .vertical-timeline-content.is-hidden {
+        visibility: hidden;
+    }
+}
+
+
+
+@media screen and (max-width: 1172px){
+    div.area_txt{float:left;width:auto;margin-right:4%}
+    div.area_download{width:100%;margin-top:20px;margin-bottom:30px}
+    div.wrap_download{margin-top:55px}
+    p.vt{font-size:28px;top:70px; right:70px}
+    div.minister_wrap a.btn.type_1.open{bottom:65px;right:160px}
+    ul.institute li{width:48.5%;margin-left:3%}
+    ul.institute li:nth-child(2n+1){margin-left:0}
+    ul.institute li:nth-child(4){margin-left:3%}
+}
+
+@media screen and (max-width: 1095px){
+    .map_icon{float:none;margin-right:0}
+    .i_txt{padding:30px 12px;display:inline-block;margin-top:0}
+}
+
+@media screen and (max-width:1024px){
+    ul.btn_list{float:left;width:100%;display:block}
+    ul.btn_list li{float:left !important;width:19%;text-align:center;box-sizing:border-box;background:#f2f4fb;border:1px solid #ddd;padding:0;margin-left:1.25%}
+    ul.btn_list li:first-child{margin-left:0}
+    a.btn.type_1.depart{background:none;border:none !important;margin:0;width:auto !important;margin-left:0 !important}
+    ul.depart_list li{border-bottom:1px solid #e2e2e2 !important}
+    ul.depart_list li p{margin-bottom:10px}
+    a.btn.type_1.depart:hover{color:#282e34;background:none}
+    ul.institute li:nth-last-child(-n+4){height:240px}
+
+    .top_org {width:99%; height:350px;}
+    .top_org li.cnt {width:97.5%; position:relative; background:none; left:0; height:auto;}
+    .top_org li.left {position:relative; background:none; top:0; left:0; width:50%; float:left;}
+    .top_org li.right {position:relative; background:none; top:0; left:0; width:50%; float:right;}
+
+    .top_org div.box {width:95%;}
+    .top_org div.min a {margin:0 auto;}
+    .top_org div.sec a {margin:15px auto; background:#9087c6; width:100%; line-height:45px; color:#fff; font-size:16px; font-weight:bold; border:1px solid #7f74bc; }
+    .top_org div.smin a {width:95%;}
+
+    .cnt_org {width:100%; background:none; padding:0; }
+    .cnt_org li {width:48%; background:none; }
+    .cnt_org li:nth-child(3) {margin-right:0; }
+    .cnt_org li:nth-child(4) {width:46.5%; }
+    .cnt_org li:nth-child(5) {width:46.5%; }
+    .cnt_org div.box {width:100%;}
+    .cnt_org div.sub a {width:auto;}
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    #mo_submain>div{width:48.5%; float:left;}
+    #mo_submain p.title{margin:20px 0 12px 20px;}
+    #mo_submain p.ment{margin:0 10px 30px 20px;}
+
+
+    .mo_con_01{background: #fff url(../images/intro/intro_submain_bg_01_s.png) no-repeat right bottom; background-size:50%; margin: 0 2% 10px 0;}
+    .mo_con_02{background: #fff url(../images/intro/intro_submain_bg_02_s.png) no-repeat right bottom; background-size:50%; margin: 0 0 10px 0;}
+    .mo_con_03{background: #fff url(../images/intro/intro_submain_bg_03_s.png) no-repeat right bottom; background-size:50%; margin: 0 2% 10px 0;}
+    .mo_con_04{background: #fff url(../images/intro/intro_submain_bg_04_s.png) no-repeat right bottom; background-size:50%; margin: 0 0 10px 0;}
+
+    div.wrap_download{overflow:hidden;margin-top:50px !important}
+    div.wrap_vision{background:none;margin-top:10px;margin-bottom:0}
+    ul.mission_group{overflow:hidden;width:100%;margin-top:15px}
+    li.misson{height:220px;box-sizing:border-box;border:1px solid #e3e7f2;float:left;width:49%;margin-left:2%;margin-bottom:2%;text-align:center;padding:30px 20px}
+    li.misson:nth-child(2n+1){margin-left:0}
+    div.worklist dl.w_info{word-break:break-all}
+    p.vt{font-size:24px;top:60px; right:60px}
+    div.minister_wrap a.btn.type_1.open{bottom:40px;right:110px}
+    ul.btn_list{float:left;width:100%;display:block}
+    ul.btn_list li{float:left;width:24%;text-align:center;box-sizing:border-box;background:#f2f4fb;border:1px solid #ddd;padding:0;margin-left:1.333333333333333%}
+    ul.btn_list li:nth-child(4n+1){margin-left:0}
+    a.btn.type_1.depart{background:none;border:none;margin:0;width:auto}
+    ul.btn_list li:last-child{margin-top:5px}
+    ul.depart_list li p{margin-bottom:10px}
+    a.btn.type_1.depart:hover{color:#282e34;background:none}
+
+    .organ{padding-bottom:45px}
+    .cnt_org li{position:static}
+    .cnt_org div.alone{top:auto;bottom:0}
+    .top_org {width:100%; height:350px; }
+    .cnt_org {width:100%; background:none; }
+    .cnt_org li {width:100%; background:none; }
+    .cnt_org li:nth-child(2) {margin-right:0; }
+    .cnt_org li:nth-child(4) {width:100%; }
+    .cnt_org li:nth-child(5) {width:100%; }
+    .cnt_org div.box {width:100%;}
+    .cnt_org div.sub a {width:auto;}
+    .cnt_org ul li div.list{min-height:inherit}
+
+    .photo_b_top .photo{width:100%; padding:0;}
+    .photo_b_top .photo .photo_area{width:100%;padding:0;border:0}
+
+}
+
+@media screen and (max-width:640px){
+    ul.institute li{height:380px}
+    .b_list2 col:nth-child(5), .b_list2 tr th:nth-child(5), .b_list2 tr td:nth-child(5), .b_list2 .t_bold td:nth-child(5){display:none}
+    
+    .img_thum{margin-right:25px !important}
+    div.departinfo_wrap div.text_box2_left170 {margin-left:0px;margin-top:170px;}
+    
+    .staff_infoList li{float:none}
+    .staff_infoList li:first-child{width:100%}
+	.staff_infoList li:nth-child(2){width:100%}
+	.staff_infoList li:nth-child(3){width:100%}
+}
+
+@media screen and (max-width:550px){
+    p.vs_tit{padding:15px 30px}
+    div.worklist dl.w_info{height:auto}
+    div.worklist dl.w_info dt{float:none;width:auto;margin-left:20px}
+    div.worklist dl.w_info dd{margin-left:20px;margin-top:-20px;font-size:14px;line-height:25px;padding:10px 0}
+    li.misson:nth-last-child(-n+2){height:260px}
+    span.logo{padding:30px 15px}
+    div.wrap_download a{margin-right:0}
+    p.vt{font-size:17px;top:30px;right:30px}
+    div.minister_wrap a.btn.type_1{bottom:20px;left:20px}
+    div.minister_wrap a.btn.type_1.open{position:static;text-align:center;display:block;background:#003478 url(../images/common/bul_open.png) 30% no-repeat}
+    ul.depart_list li p{line-height:23px;margin-bottom:0}
+    ul.btn_list li:nth-last-child(2){margin-top:-5px}
+    div.departinfo_wrap{height:auto;background:none}
+    div.depart_info{margin-top:15px}
+    div.depart_info dl{margin-bottom:5px;font-size:13px}
+    div.depart_info dl dt{margin-right:10px}
+    div.text_box2 a.btn.type_1.open{margin:0 20px 0 180px;display:block;background:#4580d1 19px center no-repeat;text-align:center;margin-bottom:5px;padding:12px 0}
+    div.text_box2 a.btn.type_1.organ{margin:0 20px 0 180px;display:block;background:#063863 19px center no-repeat;text-align:center;padding:12px 0}
+    ul.btn_list li,
+    ul.btn_list li:nth-last-child(2),
+    ul.btn_list li:nth-child(2n+1){float:left;width:49%;margin-left:2%;margin-top:6px}
+    ul.btn_list li:nth-child(2n+1){margin-left:0}
+    ul.institute li{width:100%;height:auto;margin-left:0}
+    ul.institute li:nth-child(4){margin-left:0}
+    ul.text_box2.mb_30 li.R.pt_25.pr_15{padding:0}
+    div.btit p{display:inline-block !important}
+    div.btit a{float:right !important}
+    div.ib{overflow:hidden;text-align:center}
+    .btn.type_1.bdown{float:left;font-size:13px;background:none;padding:0;width:48%;height:50px;font-weight:600;line-height:50px}
+    .btn.type_1.bins{float:left;font-size:13px;background:none;padding:0;width:48%;margin-left:2%;height:50px;font-weight:600;line-height:50px}
+    /*ul.btn_list li:nth-last-child(-n+2){margin-top:5px;}*/
+
+
+
+    #mo_submain>div{width:100%; float:none;}
+    #mo_submain p.ment{margin:0 10px 20px 20px;}
+    .mo_con_01, .mo_con_02, .mo_con_03, .mo_con_04{margin: 0 0 10px 0; height:auto; background-size:30%}
+
+    .cnt_org span.list {min-height:inherit}
+
+    .btn_arrow {position:absolute; width:100%; top:170px;margin-top:0}
+    .btn_arrow img{width:40px}
+}
+
+
+@media screen and (max-width:460px){
+    div.text_box2 a.btn.type_1{padding:12px;font-size:13px}
+    div.text_box2 a.btn.type_1.open{background:#4580d1 19px center no-repeat}
+    a.btn.type_1.organ{background:#063863 19px center no-repeat}
+    .b_list2 col:nth-child(4), .b_list2 tr th:nth-child(4), .b_list2 tr td:nth-child(4), .b_list2 .t_bold td:nth-child(4){display:none}
+    .cnt_org span.list {min-height:inherit}
+
+}
+
+@media screen and (max-width:414px){
+    div.wrap_download{margin-top:30px !important}
+    div.depart_info dl dt{width:25px}
+    div.depart_info dl dt img{display:none}
+
+}
+@media screen and (max-width:400px){
+    .photo_area iframe{height:250px !important}
+    .btn_arrow{top:103px}
+}
+
+
+@media screen and (max-width:390px){
+    span.logo{float:inherit;width:100%;text-align:center;padding:15px 0 0}
+    div.wrap_download{width:100%;margin:0;padding:0 0 10px}
+    div.wrap_download a{float:none !important;display:block;margin:10px auto 0}
+    li.organ{float:none;margin:auto;margin-bottom:20px}
+    li.organ_txt{padding:0 10px}
+    li.organ_txt span{display:block;text-align:center}
+
+    .cnt_org li { background:none; width:100%;}
+}
+
+
+@media screen and (max-width:390px){
+/* 소속기관 버튼 */
+.btn_go02{margin:10px 0 0 0; display:table}
+}
+
+
+@media screen and (max-width:320px){
+    div.txt_num:before{display:none !important}
+    li.misson p{margin-top:0 !important}
+    li.misson:nth-last-child(-n+2){height:280px !important}
+    div.departinfo_wrap.mb_20 img.img_thum{width:120px;margin-top:10px;margin-left:10px;margin-right:15px !important}
+    div.text_box2{padding-bottom:10px !important}
+    div.depart_info dl dt{float:none}
+    div.text_box2 a.btn.type_1.open{margin-top:15px;margin-left:10px;margin-right:10px}
+    div.text_box2 a.btn.type_1.organ{margin-left:10px;margin-right:10px}
+    div.ins_sbtn{padding:0 10px}
+    .b_list2 col:first-child{width:22% !important}
+
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퇴직금 일괄 계산기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- 헤더 -->
+        <header class="header">
+            <h1>퇴직금 일괄 계산기</h1>
+            <p class="subtitle">고용노동부 기준</p>
+        </header>
+
+        <!-- 툴바 -->
+        <div class="toolbar">
+            <div class="toolbar-left">
+                <button id="addEmployeeBtn" class="btn btn-primary">
+                    <span class="icon">+</span> 직원 추가
+                </button>
+                <button id="deleteEmployeeBtn" class="btn btn-danger">
+                    <span class="icon">−</span> 선택 삭제
+                </button>
+                <button id="calculateAllBtn" class="btn btn-success">
+                    <span class="icon">⚡</span> 전체 계산
+                </button>
+            </div>
+            <div class="toolbar-right">
+                <button id="addExampleBtn" class="btn btn-secondary">
+                    예제 데이터
+                </button>
+                <button id="exportExcelBtn" class="btn btn-export">
+                    <span class="icon">📊</span> 엑셀 내보내기
+                </button>
+            </div>
+        </div>
+
+        <!-- 직원 테이블 -->
+        <div class="table-container">
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th class="col-checkbox"><input type="checkbox" id="selectAll"></th>
+                        <th class="col-name">이름</th>
+                        <th class="col-date">입사일</th>
+                        <th class="col-date">퇴직일</th>
+                        <th class="col-num">재직일수</th>
+                        <th class="col-money">1일 평균임금</th>
+                        <th class="col-money">퇴직금</th>
+                        <th class="col-status">상태</th>
+                        <th class="col-action">편집</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <!-- 직원 데이터 -->
+                </tbody>
+            </table>
+            <div id="emptyMessage" class="empty-message">
+                직원이 없습니다. [직원 추가] 버튼을 클릭하여 추가하세요.
+            </div>
+        </div>
+
+        <!-- 합계 -->
+        <div class="summary-bar">
+            <div class="summary-item">
+                <span class="label">총 직원:</span>
+                <span id="totalCount" class="value">0명</span>
+            </div>
+            <div class="summary-item">
+                <span class="label">계산 완료:</span>
+                <span id="calculatedCount" class="value">0명</span>
+            </div>
+            <div class="summary-item total">
+                <span class="label">총 퇴직금:</span>
+                <span id="totalSeverance" class="value">0원</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 직원 편집 모달 -->
+    <div id="employeeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">직원 추가</h2>
+                <button class="close-btn" id="closeModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- 기본 정보 -->
+                <section class="form-section">
+                    <h3>기본 정보</h3>
+                    <div class="form-row">
+                        <label>이름</label>
+                        <input type="text" id="empName" placeholder="이름 입력">
+                    </div>
+                    <div class="form-row">
+                        <label>입사일</label>
+                        <input type="date" id="empHireDate">
+                    </div>
+                    <div class="form-row">
+                        <label>퇴직일</label>
+                        <input type="date" id="empRetireDate">
+                        <button id="calcPeriodsBtn" class="btn btn-sm">기간 자동계산</button>
+                    </div>
+                </section>
+
+                <!-- 3개월 임금 -->
+                <section class="form-section">
+                    <h3>퇴직전 3개월 임금 (세전)</h3>
+                    <div id="salaryPeriods" class="salary-periods">
+                        <!-- 동적으로 생성 -->
+                    </div>
+                </section>
+
+                <!-- 상여금/연차 -->
+                <section class="form-section">
+                    <h3>상여금 및 연차수당</h3>
+                    <div class="form-row">
+                        <label>연간상여금 총액</label>
+                        <input type="text" id="empAnnualBonus" placeholder="0">
+                        <span class="unit">원</span>
+                    </div>
+                    <div class="form-row">
+                        <label>연차수당</label>
+                        <input type="text" id="empVacationPay" placeholder="0">
+                        <span class="unit">원</span>
+                    </div>
+                    <div class="form-row">
+                        <label>1일 통상임금</label>
+                        <input type="text" id="empOrdinaryPay" placeholder="0">
+                        <span class="unit">원 (선택, 평균임금보다 클 경우 적용)</span>
+                    </div>
+                </section>
+
+                <!-- 미산입기간 -->
+                <section class="form-section">
+                    <h3>
+                        미산입기간
+                        <span class="help-text">(육아휴직 등 - 평균임금 산정에서 제외)</span>
+                    </h3>
+                    <button id="addNonCalcBtn" class="btn btn-sm btn-add">+ 기간 추가</button>
+                    <div id="nonCalcPeriods" class="period-list">
+                        <!-- 동적으로 생성 -->
+                    </div>
+                </section>
+
+                <!-- 근무제외기간 -->
+                <section class="form-section">
+                    <h3>
+                        근무제외기간
+                        <span class="help-text">(개인휴직 등 - 재직일수에서 제외)</span>
+                    </h3>
+                    <button id="addExclusionBtn" class="btn btn-sm btn-add">+ 기간 추가</button>
+                    <div id="exclusionPeriods" class="period-list">
+                        <!-- 동적으로 생성 -->
+                    </div>
+                </section>
+            </div>
+            <div class="modal-footer">
+                <button id="cancelBtn" class="btn btn-secondary">취소</button>
+                <button id="saveEmployeeBtn" class="btn btn-primary">저장</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
