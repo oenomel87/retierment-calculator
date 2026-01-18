@@ -70,6 +70,34 @@ NSIS 인스톨러(Windows에 NSIS 필요):
 wails build -platform windows/amd64 -nsis
 ```
 
+## macOS에서 Windows 크로스 빌드
+
+> mac에서 Windows 실행 파일(.exe)만 생성합니다. 패키징(NSIS)은 Windows에서만 가능합니다.
+
+1) mingw-w64 설치(예: Homebrew):
+
+```bash
+brew install mingw-w64
+```
+
+2) Windows AMD64 빌드:
+
+```bash
+cd wails-app
+CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ \
+wails build -platform windows/amd64 -nopackage
+```
+
+3) Windows ARM64 빌드(툴체인 설치 시):
+
+```bash
+cd wails-app
+CGO_ENABLED=1 CC=aarch64-w64-mingw32-gcc CXX=aarch64-w64-mingw32-g++ \
+wails build -platform windows/arm64 -nopackage
+```
+
+결과물은 보통 `wails-app/build/bin/retire-cal.exe`에 생성됩니다.
+
 ## 참고
 
 - 프론트는 `wails-app/frontend/dist/`의 순수 HTML/CSS/JS입니다.
