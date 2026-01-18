@@ -1,6 +1,6 @@
 # Retire Cal (Wails)
 
-대한민국 고용노동부 퇴직금 계산 공개 페이지를 참고해 만든 데스크톱 계산기입니다.
+대한민국 [고용노동부 퇴직금 계산 공개 페이지](https://www.moel.go.kr/retirementpayCal.do)를 참고해 만든 데스크톱 계산기입니다.
 
 ## 프로젝트 구조
 
